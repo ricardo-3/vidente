@@ -1,0 +1,153 @@
+
+.navbar-brand{
+    letter-spacing: 4px;
+    font-size: 27px;
+    
+}
+
+
+nav ul li.nav-item a{
+  color: #fff!important;
+  text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    margin-right:20px ;
+}
+
+nav ul li.nav-item a:hover{
+  color: #fff!important;
+  background-size: 100% 2px;
+  
+}
+
+
+.titulos h2{
+    font-size: 40px;
+    letter-spacing: 3px;    
+    text-align: center;
+    background: #856a6f;
+    color: #fff; 
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    
+          
+}
+
+.boton a{
+    color: #fff;
+    font-size: 20px;
+    background: #856a6f ;
+    border: 1 px solid #856a6f ;
+}
+
+.boton a:hover{
+    background: #000;
+    color: #fff;
+    font-size: 25;
+}
+
+
+.cambio .boton{
+    background:#856a6f;
+    color:#fff;
+}
+
+.cambio .boton:hover{
+    background: #000;
+    color: #fff;
+}
+
+.card .card-body a:hover{
+   background: #000;
+   color: #fff;
+}
+
+
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:30px;
+    right:30px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+    }
+    .btn-wsp:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color:#fff;
+    }
+    .icono{
+    margin-top:14px;
+    margin-left:3px;
+    }
+
+
+    .titulo h6{color: #fff;}
+
+    .redes a{
+        
+        list-style: none;
+        text-decoration: none;        
+        font-size: 20px;
+        color: #fff;
+        margin-right: 15px;
+        
+        
+    }
+
+    .redes a:hover{
+        
+        color: black;
+    }
+
+
+    @media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+    width:63px;
+    height:63px;
+        }
+
+
+        .titulos h2{
+            font-size: 20px;
+            letter-spacing: 3px;    
+            text-align: center;
+            background: #d3c5ae;
+            color: #fff; 
+            width: 320px;
+            height: 30px;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+                  
+        }
+        
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+    
