@@ -65,15 +65,17 @@ nav ul li.nav-item a:hover{
 
         .titulos h2{
             font-size: 20px;
-            letter-spacing: 3px;    
+            letter-spacing: 1px;    
             text-align: center;
-            background: #d3c5ae;
+            background: #856a6f ;
             color: #fff; 
-            width: 320px;
-            height: 30px;
+            width: 310px;
+            max-width: 320px;
+            height: 50px;
             margin: auto;
             margin-top: 20px;
             margin-bottom: 20px;
+            box-shadow: black;
             
                   
         }
