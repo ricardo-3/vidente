@@ -1,0 +1,12 @@
+.boton a{
+    color: #fff;
+    font-size: 20px;
+    background: #856a6f ;
+    border: 1 px solid #856a6f ;
+}
+
+.boton a:hover{
+    background: #000;
+    color: #fff;
+    font-size: 25;
+}
