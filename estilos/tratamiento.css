@@ -1,3 +1,31 @@
+/* estilos menu  */
+
+.navbar-brand{
+    letter-spacing: 4px;
+    font-size: 27px;
+    
+}
+
+
+nav ul li.nav-item a{
+  color: #fff!important;
+  text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    margin-right:20px ;
+}
+
+nav ul li.nav-item a:hover{
+  color: #fff!important;
+  background-size: 100% 2px;
+  
+}
+
+/* estilos botones  */
+
 .boton a{
     color: #fff;
     font-size: 20px;
@@ -10,3 +38,36 @@
     color: #fff;
     font-size: 25;
 }
+
+.boton h4{
+    color: blue;
+    font-size: 28px;
+
+}
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+    width:63px;
+    height:63px;
+        }
+
+
+        .titulos h2{
+            font-size: 20px;
+            letter-spacing: 3px;    
+            text-align: center;
+            background: #d3c5ae;
+            color: #fff; 
+            width: 320px;
+            height: 30px;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+                  
+        }
+        
+    }
