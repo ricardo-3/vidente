@@ -1,9 +1,16 @@
+body{
+    background-color: #fff;
+}
+
+
+
 
 .navbar-brand{
     letter-spacing: 4px;
     font-size: 27px;
-    
 }
+
+
 
 
 nav ul li.nav-item a{
@@ -23,6 +30,9 @@ nav ul li.nav-item a:hover{
   
 }
 
+.publicidad{
+    margin-top: 80px;
+}
 
 .titulos h2{
     font-size: 40px;
@@ -33,7 +43,7 @@ nav ul li.nav-item a:hover{
     width: 800px;
     height: 50px;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 60px;
     margin-bottom: 50px;
     
           
@@ -139,6 +149,32 @@ nav ul li.nav-item a:hover{
         
     }
 
+    
+    @media only screen and (min-width:300px) and (max-width:480px){
+
+       
+
+        iframe{
+            width: 330px;
+            height: 190px;
+        }
+
+    }
+
+
+    @media only screen and (min-width:300px) and (max-width:380px){
+
+        .logot{
+            font-size: 19px;
+            background-color: red;
+        }
+
+        iframe{
+            width: 100px;
+            height: 150px;
+        }
+
+    }
 
 
 
