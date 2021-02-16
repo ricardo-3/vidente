@@ -1,5 +1,7 @@
 body{
-    background-color: #fff;
+    background-color: whitesmoke;
+    
+    font-family: 'Brygada 1918', serif;
 }
 
 
@@ -35,7 +37,7 @@ nav ul li.nav-item a:hover{
 }
 
 .titulos h2{
-    font-size: 330px;
+    font-size: 30px;
     letter-spacing: 3px;    
     text-align: center;
     background: #856a6f;
@@ -47,6 +49,12 @@ nav ul li.nav-item a:hover{
     margin-bottom: 50px;
     
           
+}
+footer .titulo h6{
+    color: red;
+    font-size: 22px;
+    
+    
 }
 
 .boton a{
@@ -112,7 +120,7 @@ nav ul li.nav-item a:hover{
         
         list-style: none;
         text-decoration: none;        
-        font-size: 20px;
+        font-size: 25px;
         color: #fff;
         margin-right: 15px;
         
@@ -120,7 +128,7 @@ nav ul li.nav-item a:hover{
     }
 
     .redes a:hover{
-        
+              
         color: black;
     }
 
@@ -166,12 +174,22 @@ nav ul li.nav-item a:hover{
 
         .logot{
             font-size: 19px;
-            background-color: red;
+            
         }
 
         iframe{
-            width: 100px;
+            width: 295px;
             height: 150px;
+        }
+
+        .redes a{        
+            list-style: none;
+            text-decoration: none;        
+            font-size: 18px;
+            color: #fff;
+            margin-right: 15px;
+            
+            
         }
 
     }
