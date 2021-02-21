@@ -1,8 +1,10 @@
 body{
-    background-color: whitesmoke;
-    
+      
     font-family: 'Brygada 1918', serif;
-}
+    background-image: url(../imagenes/fondo.png);
+    background-size: 100%;
+
+   }
 
 
 
@@ -32,6 +34,10 @@ nav ul li.nav-item a:hover{
   
 }
 
+.texto h1, p{
+    color: #fff;
+}
+
 .publicidad{
     margin-top: 80px;
 }
@@ -56,6 +62,8 @@ footer .titulo h6{
     
     
 }
+
+
 
 .boton a{
     color: #fff;
