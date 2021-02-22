@@ -14,7 +14,10 @@ body{
     font-size: 27px;
 }
 
-
+.card{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 18px;
+}
 
 
 nav ul li.nav-item a{
